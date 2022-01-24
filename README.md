@@ -18,10 +18,9 @@ https://www.kaggle.com/c/feedback-prize-2021/overview
 ---
 
 ## Proposed approach
-GOAL: indentify discourses
 1. Split text files into sentences
 2. Aggregate sentences into discourses
-  -> for each sentence S, compare S with all sentences in previous discourse and check for logical connections. 
+  For each sentence S, compare S with all sentences in previous discourse and check for logical connections. 
   If a connection is found: add S to current discourse. 
   Else: create new discourse containing and add S to it
 3. Apply ML (Machine Learning) algorithms to identify the type of each discourse
@@ -56,8 +55,34 @@ NO
 ### 3 Vectorization
 
 ### 4 Machine learning
-- Random forest
-- Cosine similarity
-- Naive Bayes
+**Random forest**
+Basic introduction and tutorials
+<https://builtin.com/data-science/random-forest-algorithm>
+<https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/>
+
+Wikipedia article
+<https://en.wikipedia.org/wiki/Random_forest>
+
+Python library
+<https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html>
+
+**Cosine similarity**
+Basic introduction and tutorials
+<https://www.machinelearningplus.com/nlp/cosine-similarity/>
+
+Wikipedia article
+<https://en.wikipedia.org/wiki/Cosine_similarity>
+
+
+**Naive Bayes**
+Basic introduction and tutorials
+<https://www.geeksforgeeks.org/applying-multinomial-naive-bayes-to-nlp-problems/>
+
+Wikipedia article
+<https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering>
+
+Python library
+<https://scikit-learn.org/stable/modules/naive_bayes.html>
+
 
 ### 5 Interpretation
