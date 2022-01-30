@@ -53,6 +53,8 @@ NO
 - all lowercase
 
 ### 3 Vectorization
+Numberphile video
+<https://www.youtube.com/watch?v=gQddtTdmG_8>
 
 ### 4 Machine learning
 **Random forest**
@@ -83,6 +85,9 @@ Wikipedia article
 
 Python library
 <https://scikit-learn.org/stable/modules/naive_bayes.html>
+
+
+**Transformers**
 
 
 ### 5 Interpretation
